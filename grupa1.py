@@ -29,7 +29,6 @@
 # print("vas unos je",variabla)
 
 
-
 # moja_varijabla = "Hello world!"
 # print(moja_varijabla)
 
@@ -61,7 +60,6 @@
 # print("zbir je: ", sabirak+sabirak2)
 
 
-
 # varijabla = 22.3 #float
 
 # varijabla2 = 22 #int
@@ -85,18 +83,17 @@
 # print(a)
 
 
-
 # a= input('unesite neku rec')
-# b=a*5 
+# b=a*5
 # print(b)
 
 
-#a=input ('unesite 1. rec')
-#b=input ('unesite 2. rec')
-#print (a+b)
-# a= float(input("unesite broj: ")) 
+# a=input ('unesite 1. rec')
+# b=input ('unesite 2. rec')
+# print (a+b)
+# a= float(input("unesite broj: "))
 # b= float(input("unesite broj : "))
-# print 
+# print
 
 # a=float(input('unesite 1. broj '))
 # b=float(input('unesite 2 broj  '))
@@ -114,11 +111,11 @@
 
 
 # j=int(input("unesite 1.broj"))
-# s=int(input("unesite 2.broj")) 
+# s=int(input("unesite 2.broj"))
 # print("zbir je:" , j+s)
 
 
-# a=float(input("unesite 1.broj")) 
+# a=float(input("unesite 1.broj"))
 # b=float(input("unesite 2.broj"))
 # c=float(input("unesite 3.broj"))
 # x=b**2*-4*a*c
@@ -129,7 +126,7 @@
 # jana=int(input("unesite 1.broj"))
 # aisa=int(input("unesite 2.broj"))
 # p=jana**2*aisa/2
-# print("rezultat je :",int(p)) 
+# print("rezultat je :",int(p))
 # '
 # broj=int(input("unesite broj: "))
 # if broj % 7 == 0:
@@ -161,7 +158,7 @@
 # broj=int(input("unesite 1.broj"))
 # broj2=int(input("unesite 2.broj"))
 # proizvod=broj*broj2
-# zbir=broj+broj2  
+# zbir=broj+broj2
 # if proizvod == zbir :
 #     print("proizvod i zbir su jednaki")
 # else:
@@ -182,7 +179,6 @@
 # print(naziv*5)
 
 
-
 # var1= 20
 # var2= 10
 # print (var1+var2)
@@ -191,14 +187,13 @@
 # print (var1/var2)
 
 
-
 # prva_varijabla = "Hello"
 # druga_varijabla = "World"
 # print("ispisana vrednost" , prva_varijabla + druga_varijabla)
 # a=input("unesite rec")
 # print(a*5)
 
-# 
+#
 # int ("zbir je", a+b
 
 
@@ -211,11 +206,11 @@
 
 # if a%7==0:
 #     print("broj je deljiv sa 7")
-# else: 
+# else:
 #     print("broj nije deljiv sa 7")
 
 
-#") a=int(input('unesite broj'))
+# ") a=int(input('unesite broj'))
 # if a%11 ==0:
 #     print("broj je deljiv sa 11")
 # else:
@@ -235,9 +230,8 @@
 # proizvod = a*v
 # zbir = a+v
 # if proizvod==zbir:
- 
-#     print("nisu jednaki")print("proizvod jednak zbiru
 
+#     print("nisu jednaki")print("proizvod jednak zbiru
 
 
 # a=int(input('unesite broj'))
@@ -263,12 +257,12 @@
 # if  a==1:
 #     b=int(input('unesite broj'))
 #     c=int(input('unesite broj'))
-#     a=b+c 
+#     a=b+c
 #     print ('zbir je', a)
 # else:
 #     b=int(input('unesite broj'))
 #     c=int(input('unesite broj'))
-#     a=b*c 
+#     a=b*c
 #     print ('proizvod je ', a)
 
 
@@ -304,20 +298,20 @@
 # a=int(input('vas odabir'))
 # if a==1:
 #   b=int(input('unesite 1 broj'))
-#   c=int(input('unesite 2 broj'))  
+#   c=int(input('unesite 2 broj'))
 #   print('zbir je',b+c)
-# else:  
+# else:
 #   b=int(input('unesite 1 broj'))
-#   c=int(input('unesite 2 broj')) 
-#   print("proizvod je", b*c) 
+#   c=int(input('unesite 2 broj'))
+#   print("proizvod je", b*c)
 
-    # a =int(input("Unesi neki Broj: "))
-    # b =int(input("Unesi neki Broj: "))
-    # if a>0 and b<a:
-    #     print("True")
-    # else:
-    #     print("False")
-        
+# a =int(input("Unesi neki Broj: "))
+# b =int(input("Unesi neki Broj: "))
+# if a>0 and b<a:
+#     print("True")
+# else:
+#     print("False")
+
 # jana=int(input("unesite 1.broj"))
 # aisa=int(input("unesite 2.broj"))
 # if jana<0 and aisa>jana:
@@ -334,7 +328,7 @@
 #     else:
 #         print("false")
 # else:
-#     print ("false")       
+#     print ("false")
 
 # a=input("zelite li uneti brojeve da/ne")
 # if a=='da':
@@ -344,11 +338,11 @@
 #         if c<=10:
 #             print("rezultat je",b*c)
 #         else:
-#             print("broj nije u opsegu")   
+#             print("broj nije u opsegu")
 #     else:
-#         print("broj nije u opsegu")         
+#         print("broj nije u opsegu")
 # else:
-#     print("izlaz")        
+#     print("izlaz")
 
 
 # a=int(input("unesite 1.broj"))
@@ -373,7 +367,6 @@
 #     print("ne postoji takav trougao")
 
 
-
 # var1=('alija')
 # var2=('susevic')
 # print(var1+var2)
@@ -384,9 +377,8 @@
 # a=int(input('unesite broj')
 
 
-
-#telefon=input("unesite neku rec")
-#print(telefon*5)
+# telefon=input("unesite neku rec")
+# print(telefon*5)
 
 
 # s=float(input("unesite neki broj"))
@@ -404,7 +396,6 @@
 # print("proizvod je", s)
 # print("razlika je", g)
 # print("kolicnik je", x)
-
 
 
 # a = 200
@@ -465,7 +456,7 @@
 #     print("broj je veci od 0")
 # else:
 #     print("nije veci od 0")
-         
+
 
 # mis=int(input("unesite  neki broj"))
 # pas=int(input("unesite neki broj"))
@@ -525,13 +516,12 @@
 #     print("Izlaz iz Programa")
 
 
-
 # a = int(input("unesite neki broj: "))
 # if a<0:
 #     print("broj je negativan")
 # elif a>0:
 #     print("broj je pozitivan")
-# else: 
+# else:
 #     print("broj je 0")
 
 
@@ -560,7 +550,6 @@
 # t or t => t
 
 # var1 = "HEllo"
-
 
 
 # print(bool(var1) or bool(0) and False)
@@ -611,18 +600,16 @@
 #     print("izlaz iz programa")
 
 
-
 # t and t ==> t
-# t and f ==> f   
-# f and t ==>  f 
-# f and f ==> f 
+# t and f ==> f
+# f and t ==>  f
+# f and f ==> f
 
- 
-# t or t ==>  t 
-# t or f ==>  t 
-# f or t ==>  t 
-# f or f ==> f 
 
+# t or t ==>  t
+# t or f ==>  t
+# f or t ==>  t
+# f or f ==> f
 
 
 # a=int(input('a: '))
@@ -633,7 +620,7 @@
 # elif a== b or a== u or b== u:
 #     print("Jednokakracan")
 # else:
-#     print("Raznostranican")        
+#     print("Raznostranican")
 
 
 # a =int(input("Izaberite Racunsku Operaciju: "))
@@ -669,7 +656,6 @@
 #     print(i)
 
 
-
 # for i in range (1,11):
 #     print('unesite policu broj', i)
 
@@ -680,7 +666,7 @@
 
 # omogucite korisniku da unese 2 reci i kada ih unese spoiteih u niz
 # unesite dva broja i izracunajte njihov zbir razliku kolicnik
-# unesite neki broj ukolikoje uneseni brij jedan ispisite njegov zbir u 
+# unesite neki broj ukolikoje uneseni brij jedan ispisite njegov zbir u
 # nosom bilo drugog broja omogucite operaciju mnozenja
 # a=input(unesite rec)
 # b=input(unesite rec)
@@ -747,12 +733,11 @@
 # for i in range(1,21):
 #     zbir=zbir+i
 #     print("broj je:",i,"zbir je:",zbir)
-    
+
 # for i in range(0,3):
 #     print("python")
 # for j in range(0,3):
 #     print("je super")
-
 
 
 # print("unesite neki broj", 1)
@@ -820,8 +805,7 @@
 
 
 # for i in range(,0,-1):
-    # print(i)
-
+# print(i)
 
 
 # for i in range (1,101):
@@ -841,7 +825,6 @@
 # n=int(input('unesite broj'))
 # for i in range(n,0,-1):
 #     print(i)
-
 
 
 # print("broj je", 1)
@@ -868,7 +851,7 @@
 
 # n = int(input("unesite neki broj: "))
 # zbir_parnih = 0
-# zbir_neparnih = 0 
+# zbir_neparnih = 0
 # for i in range(n):
 #     a = int(input("unesite neki broj: "))
 #     if a%2:
@@ -895,7 +878,7 @@
 
 # n = int(input("unesite neki broj: "))
 # zbir_parnih = 0
-# zbir_neparnih = 0 
+# zbir_neparnih = 0
 # for i in range(n):
 #     a = int(input("unesite neki broj: "))
 #     if a%2:
@@ -933,7 +916,6 @@
 # print("najvisi", najvisi)
 
 # unesite prvih 30 brojeva  ali izuzmite 25
-
 
 
 # for i in range(1,31):
@@ -979,7 +961,7 @@
 #     pasvord=input("unesite lozinku")
 #     if pasvord=="carobnjak":
 #         print("uneli ste tacnu lozinku")
-#     else: 
+#     else:
 #         print("uneli ste pogresnu lozinku, pokusajte")
 
 # print('igra pogadanja brojeva')
@@ -1060,7 +1042,7 @@
 #     print('cena vase karte je 500 dinara')
 
 
-# sadrzajNovcanika = [10, 20, 100, 500, 50, 10] 
+# sadrzajNovcanika = [10, 20, 100, 500, 50, 10]
 # print('Sadržaj novčanika:', sadrzajNovcanika)
 
 # komsijeOdKojihKrademWiFi = ['Petrović', 'Galić', 'Čajić', 'Stojaković']
@@ -1133,7 +1115,7 @@
 # print(lista)
 
 # mojaLista = [14, 8, 7, 12, 11, 99, 456, 696, 878, 1000]
-# print(mojaLista,",", mojaLista[1], ",",mojaLista[4],",", mojaLista[7], ",","duzina je", 
+# print(mojaLista,",", mojaLista[1], ",",mojaLista[4],",", mojaLista[7], ",","duzina je",
 # len(mojaLista))
 
 # mojaLista = [14, 8, 7, 12, 11]
@@ -1167,7 +1149,6 @@
 # print('Zamena iste dužine', mojaLista)
 
 
-
 # mojaLista = [12,13,5,6,9,88,7]
 # unazad = mojaLista[::-1]
 # print(unazad)
@@ -1187,8 +1168,8 @@
 # print(min(lista))
 # print(max(lista))
 # print(len(lista))
-# for i in lista: 
-#     if i%2==0: 
+# for i in lista:
+#     if i%2==0:
 #         print("parni su", i)
 #     else:
 #         print("neparni su", i)
@@ -1277,7 +1258,6 @@
 # print(type(trenutnoVreme))
 
 
-
 # trenutnoVreme = (18, 11, 12)
 
 # # Možemo indeksirati
@@ -1362,7 +1342,6 @@
 # thisset = {"apple", "banana", "cherry"}
 
 
-
 # thisset = {"apple", "banana", "cherry"}
 # # tropical = {"pineapple", "mango", "papaya"}
 
@@ -1388,7 +1367,6 @@
 
 # thisset.add("orange")
 # print(thisset)
-
 
 
 # thisdict = {
@@ -1439,15 +1417,14 @@
 # print(ukupna_tezina, "je tezina")
 
 
-
 # Projekat 1: Kviz znanj
 
 
-# R=int(input("Koliko ima godina? "))       
-# # komentar - ulazne vrednosti -  Ličnost ima R godina G-te godine npr ima 10 godina 2020 godine 
+# R=int(input("Koliko ima godina? "))
+# # komentar - ulazne vrednosti -  Ličnost ima R godina G-te godine npr ima 10 godina 2020 godine
 # G=int(input("Koja je godina? "))
 # rodjendan=G-R
-# print("rodjen je:" , rodjendan)  
+# print("rodjen je:" , rodjendan)
 
 
 # m=int(input("unesi prvi broj: "))
