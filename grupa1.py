@@ -1446,3 +1446,18 @@
 # ime = "Amin"
 # prezime = "Sacirovic"
 # print(ime+prezime)
+
+biologija = int(input("Unesite ocenu iz biologije: "))
+geografija = int(input("unesite ocenu iz geografije: "))
+
+
+def ocena(biologija, geografija):
+    if biologija > geografija:
+        print("Ocena je veca iz biologije")
+    elif biologija == geografija:
+        print("Ocena je ista")
+    else:
+        print("Ocena iz geografije je veca")
+
+
+ocena(geografija, biologija)
