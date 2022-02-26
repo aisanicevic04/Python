@@ -1447,17 +1447,48 @@
 # prezime = "Sacirovic"
 # print(ime+prezime)
 
-biologija = int(input("Unesite ocenu iz biologije: "))
-geografija = int(input("unesite ocenu iz geografije: "))
+# biologija = int(input("Unesite ocenu iz biologije: "))
+# geografija = int(input("unesite ocenu iz geografije: "))
 
 
-def ocena(biologija, geografija):
-    if biologija > geografija:
-        print("Ocena je veca iz biologije")
-    elif biologija == geografija:
-        print("Ocena je ista")
+# def ocena(biologija, geografija):
+#     if biologija > geografija:
+#         print("Ocena je veca iz biologije")
+#     elif biologija == geografija:
+#         print("Ocena je ista")
+#     else:
+#         print("Ocena iz geografije je veca")
+
+
+# ocena(geografija, biologija)
+
+
+# def my_function():
+#     print("Hello from a function")
+
+# my_function()
+
+
+# def spajanje(ime, prezime):
+#     print(ime, " ", prezime)
+
+
+# ime = input("unesi ime: ")
+# prezime = input("unesite prezime")
+# spajanje(ime, prezime)
+
+
+srpski = int(input("unesite ocenu iz srpskog: "))
+istorija = int(input("unesite ocenu iz istorije: "))
+
+
+def ocena(srpski, istorija):
+    if srpski > istorija:
+        print("ocena je veca iz srpskog")
+    elif srpski == istorija:
+        print("ocena su jednake")
     else:
-        print("Ocena iz geografije je veca")
+        print("ocena je veca iz istorije")
 
 
-ocena(geografija, biologija)
+ocena(srpski, istorija)
