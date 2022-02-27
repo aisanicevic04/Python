@@ -1478,17 +1478,50 @@
 # spajanje(ime, prezime)
 
 
-srpski = int(input("unesite ocenu iz srpskog: "))
-istorija = int(input("unesite ocenu iz istorije: "))
+# srpski = int(input("unesite ocenu iz srpskog: "))
+# istorija = int(input("unesite ocenu iz istorije: "))
 
 
-def ocena(srpski, istorija):
-    if srpski > istorija:
-        print("ocena je veca iz srpskog")
-    elif srpski == istorija:
-        print("ocena su jednake")
-    else:
-        print("ocena je veca iz istorije")
+# def ocena(srpski, istorija):
+#     if srpski > istorija:
+#         print("ocena je veca iz srpskog")
+#     elif srpski == istorija:
+#         print("ocena su jednake")
+#     else:
+#         print("ocena je veca iz istorije")
 
 
-ocena(srpski, istorija)
+# ocena(srpski, istorija)
+
+
+# ime = input("unesite svoje ime")
+# godine = int(input("unesite svoj broj godine"))
+
+
+# def podaci(ime, godine):
+#     print(ime, godine)
+
+
+# podaci(ime, godine)
+
+# a = int(input("unesite neki prirodan broj"))
+
+
+# def my_function():
+#     for i in range(1, 6):
+#         print(i)
+
+
+# my_function()
+
+# a = int(input("unesite neki broj"))
+# b = int(input("unesite neki broj"))
+
+
+# def sabiranje():
+#     c = a + b
+#     print("zbir brojeva", a, "i", b, "je", c)
+
+
+# for i in range(1, 5):
+#     sabiranje()
