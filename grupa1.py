@@ -1525,3 +1525,22 @@
 
 # for i in range(1, 5):
 #     sabiranje()
+
+# ime = input("unesite svoje ime: ")
+# prezime = input("unesite prezime: ")
+# godine = int(input("unesite svoj broj godine: "))
+
+
+# def podaci(ime, prezime, godine):
+#     print("vase ime je", ime, ",vase prezime", prezime, ",vase godine su", godine)
+
+
+# podaci(ime, prezime, godine)
+
+
+def my_function(*kids):
+    print("The youngest child is " + kids[5])
+    print("The youngest child is " + kids[-2])
+
+
+my_function("Emil", "Tobias", "Linus", "Ahmed", "Alija", "Mehmed", "Tajiba")
