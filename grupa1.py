@@ -1538,9 +1538,9 @@
 # podaci(ime, prezime, godine)
 
 
-def my_function(*kids):
-    print("The youngest child is " + kids[5])
-    print("The youngest child is " + kids[-2])
+# def my_function(*kids):
+#     print("The youngest child is " + kids[5])
+#     print("The youngest child is " + kids[-2])
 
 
-my_function("Emil", "Tobias", "Linus", "Ahmed", "Alija", "Mehmed", "Tajiba")
+# my_function("Emil", "Tobias", "Linus", "Ahmed", "Alija", "Mehmed", "Tajiba")
