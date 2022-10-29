@@ -1544,3 +1544,490 @@
 
 
 # my_function("Emil", "Tobias", "Linus", "Ahmed", "Alija", "Mehmed", "Tajiba")
+
+
+# def hello():
+#     print("Hello world")
+
+
+# hello()
+
+
+# def my_function(fname):
+#     print(fname + " Refsnes")
+
+
+# my_function("Emil")
+# my_function("Tobias")
+# my_function("Linus")
+
+
+# def hello():
+#     print("hello world")
+
+
+# hello()
+
+
+# def ime(ime):
+#     print(ime)
+
+
+# ime("Aisa")
+
+
+# def hello(ime):
+#     print("hello " + ime)
+
+
+# hello("Redzo")
+
+
+# broj = int(input("unesite neki broj: "))
+
+# if broj >0:
+#     print("broj je pozitivan")
+# else:
+#     print("broj je negativan")
+# broj=int(input("unesite neki broj"))
+# if broj >10:
+#     print("broj je veci od deset")
+# else:
+#     print("broj je manji od 10")
+
+
+# broj = int(input("unesite neki broj: "))
+
+# if broj % 3 == 0:
+#     print("broj je deljiv sa 3")
+# else:
+#     print("broj nije deljiv sa 3")
+
+
+# def func1(ime,prezime,godine):
+#     print(f"Hi {ime} {prezime}. Vase godine su {godine}")
+
+# func1("Aisa", "Nicevic", 18)
+
+
+# def sabiranje(a, b):
+#     print(a + b)
+#     print(a - b)
+
+
+# sabiranje(10, 20)
+
+
+# def func1(a, b):
+#     sum = a + b
+#     sub = a - b
+#     mul = a * b
+#     print(f"sabrani brojevi su {sum}, oduzeti su {sub}, pomnozeni {mul}")
+
+
+# a = int(input("unesite neki broj: "))
+# b = int(input("unesite neki broj: "))
+# func1(a, b)
+
+
+# def max(a, b, c):
+#     if a > b and a > c:
+#         print(a, "je najveci broj")
+#     elif b > a and b > c:
+#         print(b, "je najveci broj")
+#     else:
+#         print(c, "je najveci broj")
+
+
+# a = int(input("unesite 1. broj: "))
+# b = int(input("unesite 2. broj: "))
+# c = int(input("unesite 3. broj: "))
+
+# max(a, b, c)
+
+
+# def max(a):
+#     if a<0:
+#         print("broj je negativan")
+#     elif a>0:
+#         print("broj je pozitivan")
+#     else:
+#         print("broj je 0")
+
+
+# a=int(input("unesite neki broj"))
+
+
+# max(a)
+
+
+# def max(a):
+#     if a%2==0:
+#         print('broj je paran')
+#     else:
+# print("broj je neparan" )
+
+# a =int(input("unesi neki broj"))
+
+# max(a)
+
+
+# def max(a):
+#     if a % 3 == 0:
+#         print("broj je deljiv")
+#     else:
+#         print("broj  nije deljiv")
+
+
+# a = int(input("unesite neki broj"))
+# max(a)
+
+
+# def sabiranje(br1,br2):
+#     zbir=br1+br2
+#     print("zbir je", zbir)
+
+# br1=int(input("unesite broj: "))
+# br2=int(input("unesite broj: "))
+# sabiranje(br1, br2)
+
+
+# def strings(str1, str2):
+#     return f"{str1} {str2}"
+
+
+# word1, word2 = input("Enter word 1: "), input("Enter word 2: ")
+# print(strings(word1, word2))
+
+
+# def nuna(pupo):
+#     if "a" in pupo:
+#         print("ima slovo a")
+#     else:
+#         print("nema a")
+
+
+# pupo = input("unesi neku rec ")
+# nuna(pupo)
+
+
+# 1
+
+# a=[23,53,646,785,90]
+# b=0
+# for i in a:
+#     b=b+i
+# print(b)
+# print(max(a),min(a))
+
+# 2
+
+# a=[123,4513,12,65]
+# b=[12,4893492,90]
+# n=0
+# for i in a:
+#     if i in b:
+#         n+=1
+# if n > 0:
+#     print("True")
+# else:
+#     print("False")
+
+# 3
+
+# a=(2313,443532,45546)
+# (broj1,broj2,broj3)=a
+# print(broj1)
+# print(broj2)
+# print(broj3)
+
+# 4
+
+# a=list((2144,54545,45332,879))
+# a.pop();a.pop()
+# a.append(3534)
+# print(tuple(a))
+
+# 5
+
+# auto={
+# "brend":"audi",
+# "model":"a8",
+# "godina":2022
+# }
+
+# for i,j in auto.items():
+#     print(i,j)
+
+# 6
+
+# auto = {"brend": "audi", "model": "a8", "godina": 2022}
+# auto.popitem()
+# auto.update(
+#     {
+#         "boja": "siva",
+#         "motor": "v12",
+#     }
+# )
+# print(auto)
+
+# 7
+
+# a={123.5656475,34543,233}
+# b=list(a)
+# b.pop()
+# a=set(b)
+# print(a)
+
+
+# class Osoba:
+#     def __init__(self, name, age, skill):
+#         self.name = name
+#         self.age = age
+#         self.skill = skill
+
+#     def print_name(self):
+#         print("My name is: ", self.name)
+
+
+# p1 = Osoba("Hamza", 14, "Python")
+# print(p1.skill)
+# p1.print_name()
+
+
+# class Animal:
+#     def __init__(self, vrsta, boja, noge):
+#         self.vrsta = vrsta
+#         self.boja = boja
+#         self.noge = noge
+
+#     def print_animal(self):
+#         print("ova zivotinja je: ", self.vrsta, self.boja, self.noge)
+
+
+# p1 = Animal("Macka", "crna", "4 noge")
+# p1.print_animal()
+
+
+# a = []
+# for i in range(5):
+#     b = int(input())
+#     a.append(b)
+# a.remove(max(a))
+# print(a)
+
+
+# a = int(input())
+# b = int(input())
+
+
+# def sabrianje(a, b):
+#     return a + b
+
+
+# def oduzimanje(a, b):
+#     return a - b
+
+
+# def mnozenje(a, b):
+#     return a * b
+
+
+# def deljenje(a, b):
+#     return a / b
+
+
+# print(sabrianje(a, b))
+# print(oduzimanje(a, b))
+# print(mnozenje(a, b))
+# print(deljenje(a, b))
+
+
+# a = input()
+
+
+# def henrimacak(a):
+#     n = 0
+#     for i in a:
+#         if i.isupper() == True:
+#             n += 1
+#     return n
+
+
+# print(henrimacak(a))
+
+
+# def remove_duplicates(array):
+#     return list(set(array))
+
+
+# print(remove_duplicates([1, 2, 3, 3, 3, 3, 3, 3, 3, 3]))
+
+
+# a = []
+# for i in range(5):
+#     b = int(input())
+#     a.append(b)
+# a.remove(max(a))
+# print(a)
+
+
+# a = int(input("unesite element"))
+# b = int(input("unesite element"))
+
+
+# def sabiranje(a, b):
+#     return a + b
+
+
+# def oduzimanje(a, b):
+#     return a - b
+
+
+# def mnozenje(a, b):
+#     return a * b
+
+
+# def deljenje(a, b):
+#     return a / b
+
+
+# print(sabiranje(a, b))
+# print(oduzimanje(a, b))
+# print(mnozenje(a, b))
+# print(deljenje(a, b))
+
+
+# a = int(input("unesite neki broj"))
+# def parnost(a):
+#     if a%2==0:
+#         print("broj je paran")
+#     else:
+#         print("broj je neparan")
+
+# parnost(a)
+
+# def negativnost(a):
+#     if a<0:
+#         print("broj je negativan")
+#     else:
+#         print("broj je pozitivan")
+# negativnost(a)
+
+# a=int(input("unesite neko doba dana"))
+# def funkcija1()
+
+
+# if 10 < 5:
+#     print("10 je vece od 5")
+# else:
+#     print("10 nije vece od 5")
+
+
+# a = int(input("unesite neki broj: "))
+# b = int(input("unesite neki broj: "))
+
+# if a and b % 2 == 0:
+#     print("brojevi su deljivi sa 2")
+# else:
+#     print("neki od brojeva nisu deljivi sa 2")
+
+
+# a = int(input("unesite neki broj: "))
+# b = int(input("unesite neki broj: "))
+
+# if a == b:
+#     print(a**2, "povrsina kvadrata")
+# else:
+#     print(a * b, "povrsina pravugaonika")
+# c = a + b
+# d = a * b
+
+# if c == d:
+#     print("zbir i proizvod su jednaki")
+# else:
+#     print("zbir i proizvod nisu jednaki")
+
+
+# if c >= 20:
+#     print("zbir je veci od 20")
+# else:
+#     print("zbir je manji od 20")
+
+
+# if a % 7 == 0:
+#     print("broj je deljiv sa 7")
+# else:
+#     print("broj nije deljiv sa 7")
+
+# if a > 0:
+#     print("broj je pozitivan")
+# else:
+#     print("broj je negativan")
+
+
+
+
+
+# participation_grade = float(input("Enter student's participation grade: "))
+# first_grade = float(input("Enter student's first test grade: "))
+# second_grade = float(input("Enter student's second test grade: "))
+# third_grade = float(input("Enter student's third test grade: "))
+
+# average_test = first_grade+second_grade+third_grade%3
+# print("Test average", average_test)
+
+# first_project =float(input("Enter student's first project grade: "))
+# second_project =float(input("Enter student's second project grade: "))
+
+# average_project = first_project+second_project%2
+
+# print("Project average", average_project)
+# grade = average_test%average_project
+# print("Student grade ", grade)
+
+
+# import random
+
+# a = random.uniform(0.52,random.randint(1,2))
+
+# # a = random.randint(1,23)
+# print(a)
+
+
+
+# set1 = {"deca", 1, 23.5}
+# for i in set1:
+#     print(i)
+# # set1.add(3)
+# print(set1)
+# print(1 in set1)
+
+# print(set1)
+# print(len(set1))
+
+# myset1 = {1,2,3,4}
+# myset1.discard(9)
+# print(myset1)
+
+# myset2 = {5,6,7,8}
+# myset2.remove(9)
+# print(myset2)
+
+
+# myset1.update(myset2)
+# print(myset1)
+
+
+set1= {"fdsa", "ftsdghkajl", "asdfxcgj"}
+set1.add (1)
+set1.discard(1)
+set1.remove("fdsa")
+print(len(set1))
+for i in set1:
+    print(set1)
+# if 1 in set1:
+#     print("ovaj element se nalazi u setu")
+# else: 
+#     print("ovaj element se ne nalazi u setu")
+
